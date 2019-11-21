@@ -9,8 +9,15 @@ Put it all together
 
 You should now have a partially undressed Roomba, and a programmed Arduino. Now it is time to connect them. With both unpowered, connect the following:
 
-Arduino GND to Roomba ground (pin 6 or other pin of ESP)
-Arduino TX (pin 1 on e.g. Uno or other pin of ESP) to Roomba RX (pin 3)
+Arduino/ESP01 GND to Roomba ground (pin 6 or other pin of ESP)
+Arduino/ESP01 TX (pin 1 on e.g. Uno or other pin of ESP) to Roomba RX (pin 3)
 
+this is a picture with Arduino Uno:
+
+![alt text](https://github.com/pilot1981/scheduler-Roomba-500-using-ESP8266/blob/master/DSC_0886.jpg)
+
+This is a picture with ESP01:
+
+![alt text](https://github.com/pilot1981/scheduler-Roomba-500-using-ESP8266/blob/master/IMG_7202.PNG)
 
 Now, the moment of truth. Press the "CLEAN" button on the Roomba, the light should go on. Plug in the USB for the Arduino. The Roomba light should turn off briefly, and after a few seconds the Arduino should blink it's LED. The schedule is now programmed, all done!
