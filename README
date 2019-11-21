@@ -21,3 +21,8 @@ This is a picture with ESP01:
 ![alt text](https://github.com/pilot1981/scheduler-Roomba-500-using-ESP8266/blob/master/IMG_7202.PNG)
 
 Now, the moment of truth. Press the "CLEAN" button on the Roomba, the light should go on. Plug in the USB for the Arduino. The Roomba light should turn off briefly, and after a few seconds the Arduino should blink it's LED. The schedule is now programmed, all done!
+
+
+Example:
+To schedule the robot to clean at 3:00 PM on Wednesdays and 10:36 AM on Fridays, send: [167] [40] [0] [0] [0] [0] [0] [0] [15] [0] [0] [0] [10] [36] [0] [0]
+To disable scheduled cleaning, send: [167] [0] [0] [0] [0] [0] [0] [0] [0] [0] [0] [0] [0] [0] [0] [0]
