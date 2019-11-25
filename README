@@ -1,4 +1,7 @@
-You need to modify the variables at the top: set currentDay, currentHour, currentMinute according to the present time.
+You need to modify the variables at the top: 
+- set currentDay, 
+- currentHour, 
+- currentMinute according to the present time.
 The pre-programmed schedule is to clean at 03:00 on Sunday, Monday, Wednesday and Friday. You can change this if you wish, by altering the daystorun and times variables.
 
 Times are sent in 24 hour format. Hour (0-23) Minute (0-59)
